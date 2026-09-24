@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-wallpapers
-pkgver=1.0.4
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Wallpapers for BakeryOS"
 arch=('any')
