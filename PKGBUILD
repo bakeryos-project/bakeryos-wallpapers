@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-wallpapers
-pkgver=1.0.0
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="Wallpapers for BakeryOS"
 arch=('any')
@@ -25,5 +25,9 @@ package() {
   
   install -Dm644 "${srcdir}/CREDIT.md" "${pkgdir}/usr/share/doc/bakeryos/wallpapers/CREDIT.md"
   install -Dm644 "${srcdir}/gnome-background-properties/bakeryos.xml" "${pkgdir}/usr/share/gnome-background-properties/bakeryos.xml"
-  cp -a ${srcdir}/bakeryos-wallpapers/* "${pkgdir}/usr/share/backgrounds/bakeryos-wallpapers/"
+  for img in "${srcdir}/bakeryos-wallpapers/"*; do
+    if [ -f "$img" ]; then
+      install -Dm644 "$img" "${pkgdir}/usr/share/backgrounds/bakeryos-wallpapers/$(basename "$img")"
+    fi
+  done
 }
