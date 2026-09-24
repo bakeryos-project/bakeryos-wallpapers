@@ -20,8 +20,10 @@ options=(!debug !strip)
 
 package() {
   install -d "${pkgdir}/usr/share/doc/bakeryos/wallpapers"
+  install -d "${pkgdir}/usr/share/gnome-background-properties"
   install -d "${pkgdir}/usr/share/backgrounds/bakeryos-wallpapers"
   
   install -Dm644 "${srcdir}/CREDIT.md" "${pkgdir}/usr/share/doc/bakeryos/wallpapers/CREDIT.md"
+  install -Dm644 "${srcdir}/gnome-background-properties/bakeryos.xml" "${pkgdir}/usr/share/gnome-background-properties/bakeryos.xml"
   cp -a ${srcdir}/bakeryos-wallpapers/* "${pkgdir}/usr/share/backgrounds/bakeryos-wallpapers/"
 }

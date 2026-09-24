@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_001.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_002.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_003.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_004.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_005.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_006.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_007.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>BakeryOS wallpaper</name>
+    <filename>/usr/share/backgrounds/bakeryos-wallpapers/wallpaper_008.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
