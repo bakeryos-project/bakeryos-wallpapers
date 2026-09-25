@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-wallpapers
-pkgver=1.1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="Wallpapers for BakeryOS"
 arch=('any')
@@ -30,4 +30,6 @@ package() {
       install -Dm644 "$img" "${pkgdir}/usr/share/backgrounds/bakeryos-wallpapers/$(basename "$img")"
     fi
   done
+
+  install -Dm644 "${startdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
