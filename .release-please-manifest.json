@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
   ".": "1.1.0"
+=======
+  ".": "1.2.0"
+>>>>>>> 8a4ba3b (chore: update release version)
 }
